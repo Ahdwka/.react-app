@@ -35,7 +35,7 @@ export const lectures: Lecture[] = [
         id: "1-2-2",
         title: "ch2",
         type: "pptx",
-        url: "/materials/phy1/ppt/chapter2.ppt",
+        url: require("/materials/phy1/ppt/chapter2.ppt") ,
       },
       {
         id: "1-1-3",
