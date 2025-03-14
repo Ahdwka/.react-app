@@ -1,5 +1,57 @@
 import { Lecture } from "../types";
+
 export const lectures: Lecture[] = [
+  {
+    id: "3",
+    title: "CS2",
+    description: "سلايديات المقرر",
+    thumbnail:
+      "https://r3bgyapyoe5o1uwi.public.blob.vercel-storage.com/thumbnail/cs2-xoF3sCBHLc2VFTdS6MsfV6qQW2PoIz.png",
+    materials: [
+      {
+        id: "3-1-1",
+        title: "ch1",
+        type: "pdf",
+        url: "https://drive.usercontent.google.com/download?id=1xqSndnbq7dZu1VYRZDLx7jUOsoBLwMwG&export=download&authuser=0&confirm=t&uuid=eb97e658-cfc5-48df-afe8-4859502ca92b&at=AEz70l6jxbVyG_gmGf6ExFOMjgp2:1741989882619",
+      },
+      {
+        id: "3-1-2",
+        title: "ch2",
+        type: "pdf",
+        url: "https://drive.usercontent.google.com/download?id=18GmMc7pWArtAEoFfFvijXutFlvxFlhbE&export=download&authuser=0&confirm=t&uuid=f3b6e1f3-5432-4d7c-a8b0-1f4fa1abb5d4&at=AEz70l5ynBlvBNT-9QDzzQ5a4MRK:1741989886278",
+      },
+      {
+        id: "3-1-3",
+        title: "ch3",
+        type: "pdf",
+        url: "https://drive.usercontent.google.com/download?id=1e1frOzLPrLhu0EgPqyCTQwuAH-o8bTGA&export=download&authuser=0&confirm=t&uuid=6dba9dd0-4ec7-41fa-a0b2-8628c8716bde&at=AEz70l4Boz8J1LMW7ly73gmT3iUq:1741990633191",
+      },
+      {
+        id: "3-1-4",
+        title: "ch4",
+        type: "pdf",
+        url: "",
+      },
+      {
+        id: "3-1-5",
+        title: "ch5",
+        type: "pdf",
+        url: "https://drive.usercontent.google.com/download?id=12JoDgQH8Ikg4PvTaJXCvSsC8KBsGDTK4&export=download&authuser=0&confirm=t&uuid=bfe0d17a-45da-49e4-9131-eb1b8709793c&at=AEz70l5frcL2c1WgY0YOiy36CUZa:1741990635225",
+      },
+      {
+        id: "3-1-6",
+        title: "ch6",
+        type: "pdf",
+        url: "https://drive.usercontent.google.com/download?id=1lQ3mWsRzZ7fX5DzwCMuHZzCxE2IbEGdP&export=download&authuser=0&confirm=t&uuid=20deab91-be5e-4d38-9f05-97027807bbca&at=AEz70l7JOicJ21vSiGspL6vP_NuK:1741990674146",
+      },
+      {
+        id: "3-1-7",
+        title: "ch7",
+        type: "pdf",
+        url: "https://drive.usercontent.google.com/download?id=1iNXbihhfnEzgyR5NoRaU_mzTodGBKW5E&export=download&authuser=0&confirm=t&uuid=dcc99f2e-5cff-4452-bb77-dbc5665f5eb2&at=AEz70l54n8ip4NVzd-wX9Q4cPykN:1741990676601",
+      },
+    ],
+  },
   {
     id: "1",
     title: "General Physics (1) For Engineering",
@@ -68,7 +120,7 @@ export const lectures: Lecture[] = [
         id: "2-1-23",
         title: "ch23",
         type: "pdf",
-        url: "",
+        url: "https://drive.usercontent.google.com/download?id=10uMLbkSbTMkk1DZWeAeXYtCZIrX9zCtH&export=download&authuser=0&confirm=t&uuid=70dad6da-63d7-4f37-96b6-e6fc852ba780&at=AEz70l6mVRA3KoljFwPFqz_CJkvP:1741989322501",
       },
       {
         id: "2-2-23",
@@ -80,7 +132,7 @@ export const lectures: Lecture[] = [
         id: "2-1-24",
         title: "ch24",
         type: "pdf",
-        url: "",
+        url: "https://drive.usercontent.google.com/download?id=1Ks62v69pAOCJ9Hqabo58QcWv-idwwXdU&export=download&authuser=0&confirm=t&uuid=5f017fa2-c9f2-447d-80a2-864cf1de1e93&at=AEz70l6q5Zyv8A9BpHmAMNVY33jO:1741989395449",
       },
       {
         id: "2-2-24",
@@ -92,7 +144,7 @@ export const lectures: Lecture[] = [
         id: "2-1-25",
         title: "ch25",
         type: "pdf",
-        url: "",
+        url: "https://drive.usercontent.google.com/download?id=15HlmmiNBaK68_W5pZG5OZ200ddWcWcXy&export=download&authuser=0&confirm=t&uuid=0c2f510a-cdd3-4757-aaf8-1653a774ae75&at=AEz70l4BvQXxQj5OF-RmkMxeOZ2I:1741989398400",
       },
       {
         id: "2-2-25",
@@ -104,7 +156,7 @@ export const lectures: Lecture[] = [
         id: "2-1-26",
         title: "ch26",
         type: "pdf",
-        url: "",
+        url: "https://drive.usercontent.google.com/download?id=1v_ceLqXD9fXxB-BljxDo7HyHwrpC7Bab&export=download&authuser=0&confirm=t&uuid=dff32068-d557-46e9-94c0-850213a357af&at=AEz70l6bzRcMXRHe4SMCR0xfCjkD:1741989401482",
       },
       {
         id: "2-2-26",
