@@ -4,7 +4,7 @@ export const lectures: Lecture[] = [
     id: "1",
     title: "General Physics (1) For Engineering",
     description: "سلايديات المقرر",
-    thumbnail: "/thumbnail/phy1.png",
+    thumbnail: "https://r3bgyapyoe5o1uwi.public.blob.vercel-storage.com/thumbnail/phy1-1sFzrSLvFK1PjjKCNPteKSPy0qlJrF.png",
     materials: [
       {
         id: "1-3",
@@ -22,7 +22,7 @@ export const lectures: Lecture[] = [
         id: "1-2-2",
         title: "ch1",
         type: "pptx",
-        url: "https://docs.google.com/presentation/d/1cblE9qW4mcfZ_bfPEwfhMXkif4ZB_SM7/edit?usp=drive_link&ouid=114008631201822108151&rtpof=true&sd=true",
+        url: "https://r3bgyapyoe5o1uwi.public.blob.vercel-storage.com/materials/phy1/ppt/chapter1-DfGfSI6bd8nlYcTEu0NzBtDg6zyNY9.ppt",
       },
       {
         id: "1-1-2",
@@ -90,7 +90,7 @@ export const lectures: Lecture[] = [
     id: "2",
     title: "General Physics (2) For Engineering",
     description: "سلايديات المقرر",
-    thumbnail: "/thumbnail/phy2.png",
+    thumbnail: "https://r3bgyapyoe5o1uwi.public.blob.vercel-storage.com/thumbnail/phy2-IiAbPm6N1nVGS9cmaPDGG6jBvJB34O.png",
     materials: [
       {
         id: "2-1",
